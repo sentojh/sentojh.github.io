@@ -33,6 +33,3 @@ Currently, I have worked and researched in [Robotics Lab](http://rnb.postech.ac.
 - Google Scholar: [Link](https://scholar.google.com/citations?user=pQp9Qj8AAAAJ&hl=en)
 - LinkdIn: [Link](https://www.linkedin.com/in/jonghyeok-kim-220053321/)
 
-
-## Publications
-{% bibliography --file papers --group_by year --sort_by year,month --order descending %}
