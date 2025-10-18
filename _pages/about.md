@@ -1,26 +1,28 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 # subtitle:
 
 profile:
   align: right
   image: profile_jhkim.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
+all_publications: true
 ---
 
 I'm a Ph.D. Candidate in Mechanical Engineering at [POSTECH](https://postech.ac.kr/eng/index.do) (Pohang University of Science and Technology), South Korea.
