@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sentojh.github.io/sitemap.xml
