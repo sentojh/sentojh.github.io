@@ -59,13 +59,9 @@ layout: default
     <!-- Publications -->
     {% if page.all_publications%}
       %<h2>
-      %  <a href="{{ '/Publications/' | relative_url }}" style="color: inherit">news</a>
+      %  <a href="{{ '/Publications/' | relative_url }}" style="color: inherit">publications</a>
       %</h2>
-      %{% include all_publictaions.liquid limit=true %}
-
-      <hr class="section-hr">
-      <h2>Publications</h2>
-      {% bibliography --file papers --group_by year --sort_by year,month --order descending %}
+      {% include all_publictaions.liquid limit=true %}
     {% endif %}
 
     <!-- Selected papers -->
