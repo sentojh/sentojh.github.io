@@ -42,25 +42,34 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)",
+      "publisher": "IEEE Transcations on Robotics (T-RO)",
+      "releaseDate": "2025-10",
+      "url": "https://ieeexplore.ieee.org/abstract/document/11197012"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Deep Learning-Based Friction Compensation in Low Velocity for Enhanced Direct Teaching in Collaborative Manipulators",
+      "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
+      "releaseDate": "2025-05",
+      "url": "https://ieeexplore.ieee.org/document/11128191"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "A Passive Recursive Newton Euler Algorithm and Its Application to Inverse Dynamics under Passivity-based Controller",
+      "publisher": "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)",
+      "releaseDate": "2025-04",
+      "url": "https://ieeexplore.ieee.org/document/10979029"
+    },
+    {
+      "name": "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk",
+      "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+      "releaseDate": "2024-10",
+      "url": "https://ieeexplore.ieee.org/document/10802521"
+    },
+    {
+      "name": "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm",
+      "publisher": "IEEE RObotics and Automation Letters (RA-L)",
+      "releaseDate": "2024-05",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10530920"
     }
   ],
   "skills": [

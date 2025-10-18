@@ -57,10 +57,7 @@ layout: default
     {% endif %}
 
     <!-- Publications -->
-    {% if page.all_publications%}
-      %<h2>
-      %  <a href="{{ '/Publications/' | relative_url }}" style="color: inherit">publications</a>
-      %</h2>
+    {% if page.all_publications %}
       {% include all_publictaions.liquid limit=true %}
     {% endif %}
 
