@@ -21,8 +21,7 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-
-all_publications: true
+  
 ---
 
 I'm a Ph.D. Candidate in Mechanical Engineering at [POSTECH](https://postech.ac.kr/eng/index.do) (Pohang University of Science and Technology), South Korea.
