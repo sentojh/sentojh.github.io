@@ -24,7 +24,7 @@
     {
       "institution": "Pohang University of Science and Technology (POSTECH)",
       "location": "Pohang, South Korea",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.postech.ac.kr/eng/index.do",
       "area": "Mechanical Engineering",
       "studyType": "Ph.D.",
       "startDate": "2021-02",
@@ -33,7 +33,7 @@
     {
       "institution": "Pohang University of Science and Technology (POSTECH)",
       "location": "Pohang, South Korea",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.postech.ac.kr/eng/index.do",
       "area": "Mechanical Engineering",
       "studyType": "B.S.",
       "startDate": "2017-02",
@@ -43,31 +43,36 @@
   "publications": [
     {
       "name": "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)",
-      "publisher": "IEEE Transcations on Robotics (T-RO)",
+      "authors": ["Jonghyeok Kim", "Minchang Sung", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
+      "publisher": "IEEE Transactions on Robotics (T-RO)",
       "releaseDate": "2025-10",
       "url": "https://ieeexplore.ieee.org/abstract/document/11197012"
     },
     {
       "name": "Deep Learning-Based Friction Compensation in Low Velocity for Enhanced Direct Teaching in Collaborative Manipulators",
+      "authors": ["Seohyun Choi", "Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
       "releaseDate": "2025-05",
       "url": "https://ieeexplore.ieee.org/document/11128191"
     },
     {
       "name": "A Passive Recursive Newton Euler Algorithm and Its Application to Inverse Dynamics under Passivity-based Controller",
+      "authors": ["Jonghyeok Kim", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)",
       "releaseDate": "2025-04",
       "url": "https://ieeexplore.ieee.org/document/10979029"
     },
     {
       "name": "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk",
+      "authors": ["Dongwoo Ko", "Jonghyeok Kim", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "releaseDate": "2024-10",
       "url": "https://ieeexplore.ieee.org/document/10802521"
     },
     {
       "name": "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm",
-      "publisher": "IEEE RObotics and Automation Letters (RA-L)",
+      "authors": ["Jonghyeok Kim", "Donghyeon Lee", "Youngjin Choi", "Wan Kyun Chung"],
+      "publisher": "IEEE Robotics and Automation Letters (RA-L)",
       "releaseDate": "2024-05",
       "url": "https://ieeexplore.ieee.org/abstract/document/10530920"
     }

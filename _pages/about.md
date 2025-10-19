@@ -21,12 +21,12 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-  
+
 ---
 
 I'm a Ph.D. Candidate in Mechanical Engineering at [POSTECH](https://postech.ac.kr/eng/index.do) (Pohang University of Science and Technology), South Korea.
 
-Currently, I have worked and researched in [Robotics Lab](http://rnb.postech.ac.kr/index.html) advised by Prof. [Wan Kyun Chung](https://scholar.google.com/citations?user=fRu22vsAAAAJ&hl=en&oi=ao). My major research interests are in robot control.
+Currently, I have worked and researched in [Robotics Lab](http://rnb.postech.ac.kr/index.html) advised by Prof. [Wan Kyun Chung](https://scholar.google.com/citations?user=fRu22vsAAAAJ&hl=en&oi=ao). My major research interests are in robot control with geometric perspective, interaction control, bimanual task and robot hand manipulation.
 
 - Contact: sentojh@postech.ac.kr / sentojh@gmail.com
 - Google Scholar: [Link](https://scholar.google.com/citations?user=pQp9Qj8AAAAJ&hl=en)
