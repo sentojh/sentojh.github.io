@@ -64,7 +64,7 @@
     },
     {
       "name": "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk",
-      "authors": ["Dongwoo Ko", "Jonghyeok Kim", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
+      "authors": ["Dongwoo Ko*", "Jonghyeok Kim*", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "releaseDate": "2024-10",
       "url": "https://ieeexplore.ieee.org/document/10802521"
@@ -79,16 +79,13 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Software",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C++",
+        "Python",
+        "Matlab"
       ]
     }
   ],

@@ -1,14 +1,18 @@
 <style>
-  /* 저자 줄 기본 스타일 */
-  .pub-authors {
-      font-size: 0.95rem;
-      font-weight: 400;
-      margin: 0 0 .25rem; }
-  /* 내 이름만 밑줄 + 굵게 */
-  .pub-authors .me{
-    border-bottom: 2px solid currentColor;   /* 밑줄을 text-decoration 대신 border로 */
+  /* 저자 라인 기본 스타일 */
+  .pub-authors { font-size: 0.95rem; font-weight: 400; margin: 0 0 .25rem; }
+  /* 내 이름만 강조 (밑줄은 text-decoration 대신 border로) */
+  .pub-authors .me {
+    border-bottom: 2px solid currentColor;
     padding-bottom: 1px;
-    font-weight: 700;                         /* 굵게 */
+    font-weight: 700;
+  }
+  /* 윗첨자 별 */
+  .pub-authors .star {
+    font-weight: 700;
+    margin-left: 1px;
+    font-size: .8em;
+    line-height: 0;
   }
 </style>
 
@@ -46,35 +50,51 @@
             {%- endif -%}
           </h6>
 
-          <!-- Authors (underline only my name) -->
-          {%- assign my_name_aliases = "Jonghyeok Kim|Kim, Jonghyeok|Jonghyeok H. Kim|J. H. Kim" | split:"|" -%}
-          {%- if content.authors -%}
-            {%- comment -%} authors: string "A, B, C" 또는 array ["A","B","C"] 모두 지원 {%- endcomment -%}
-            {%- if content.authors.first -%}
-              {%- assign _authors_raw = content.authors -%}
-            {%- else -%}
-              {%- assign _authors_raw = content.authors | split: "," -%}  {# 콤마 기준 split (공백 유무 모두 허용) #}
-            {%- endif -%}
+        <!-- Authors (underline only my name) -->
+        {%- assign my_name_aliases = "Jonghyeok Kim|Kim, Jonghyeok|Jonghyeok H. Kim|J. H. Kim" | split:"|" -%}
 
-            {%- capture authors_html -%}
-              {%- for a in _authors_raw -%}
-                {%- assign a_trim = a | strip -%}
-                {%- assign is_me = false -%}
-                {%- for alias in my_name_aliases -%}
-                  {%- if a_trim == alias -%}              {# ← contains 제거: '정확히' 일치할 때만 #}
-                    {%- assign is_me = true -%}
-                  {%- endif -%}
-                {%- endfor -%}
-                {%- if is_me -%}
-                  <span class="me">{{ a_trim }}</span>
-                {%- else -%}
-                  {{ a_trim }}
-                {%- endif -%}
-                {%- unless forloop.last -%}, {% endunless -%}
-              {%- endfor -%}
-            {%- endcapture -%}
-            <p class="ml-1 ml-md-4 pub-authors">{{ authors_html | strip_newlines }}</p>
+        {%- if content.authors -%}
+          {%- if content.authors.first -%}
+            {%- assign _authors_raw = content.authors -%}
+          {%- else -%}
+            {%- assign _authors_raw = content.authors | split: "," -%}
           {%- endif -%}
+
+          {%- capture authors_html -%}
+            {%- for a in _authors_raw -%}
+              {%- assign a_trim = a | strip -%}
+
+              {%- assign last_char = a_trim | slice: -1, 1 -%}
+              {%- assign has_star = false -%}
+              {%- if last_char == "*" or last_char == "＊" -%}
+                {%- assign has_star = true -%}
+              {%- endif -%}
+
+              {%- assign a_cmp = a_trim -%}
+              {%- if has_star -%}
+                {%- assign len = a_trim | size -%}
+                {%- assign len_minus_1 = len | minus: 1 -%}
+                {%- assign a_cmp = a_trim | slice: 0, len_minus_1 | strip -%}
+              {%- endif -%}
+
+              {%- assign is_me = false -%}
+              {%- for alias in my_name_aliases -%}
+                {%- if a_cmp == alias -%}{%- assign is_me = true -%}{%- endif -%}
+              {%- endfor -%}
+
+              {%- if is_me -%}
+                <span class="me">{{ a_cmp }}</span>
+              {%- else -%}
+                {{ a_cmp }}
+              {%- endif -%}
+              {%- if has_star -%}<sup class="star">*</sup>{%- endif -%}
+
+              {%- unless forloop.last -%}, {% endunless -%}
+            {%- endfor -%}
+          {%- endcapture -%}
+
+          <p class="ml-1 ml-md-4 pub-authors">{{ authors_html | strip_newlines }}</p>
+        {%- endif -%}
 
           <!-- Venue / publisher -->
           {%- if content.publisher -%}
