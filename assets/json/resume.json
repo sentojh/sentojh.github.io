@@ -6,17 +6,17 @@
     "url": "https://sentojh.github.io",
     "summary": "Ph.D. Candidate in Robotics Lab, POSTECH, South Korea",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "39 Jigok-ro",
+      "postalCode": "37666",
+      "city": "Namgu, Pohang-si",
+      "countryCode": "South Korea",
+      "region": "Gyeongsangbukdo"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Jonghyeok Kim",
+        "url": ""
       }
     ]
   },
@@ -41,6 +41,13 @@
     }
   ],
   "publications": [
+        {
+      "name": "Christoffel-Consistent Coriolis Factorization and Its Effect on the Control of a Robot",
+      "authors": ["Jonghyeok Kim", "Wan Kyun Chung"],
+      "publisher": "IEEE Robotics and Automation Letters (RA-L)",
+      "releaseDate": "2025-12",
+      "url": ""
+    },
     {
       "name": "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)",
       "authors": ["Jonghyeok Kim", "Minchang Sung", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
@@ -85,13 +92,14 @@
       "keywords": [
         "C++",
         "Python",
-        "Matlab"
+        "Matlab",
+        "MuJoCo Simulator"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Korea",
+      "language": "Korean",
       "fluency": "Native speaker",
       "icon": ""
     },
