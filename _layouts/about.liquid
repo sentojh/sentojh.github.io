@@ -43,7 +43,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -56,8 +56,9 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!--
+
     <!-- Publications -->
+    <!--
     {% if page.all_publications %}
       {% include all_publictaions.liquid limit=true %}
     {% endif %}

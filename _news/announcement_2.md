@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have transioned to the integrated M.S. and Ph.D. course.  :fighting:
+I have transioned to the integrated M.S. and Ph.D. course. :muscle:
