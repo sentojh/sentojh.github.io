@@ -45,42 +45,48 @@
       "name": "Christoffel-Consistent Coriolis Factorization and Its Effect on the Control of a Robot",
       "authors": ["Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
-      "releaseDate": "2025-12",
+      "type": "Journal",
+      "releaseDate": "2025",
       "url": ""
     },
     {
       "name": "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)",
       "authors": ["Jonghyeok Kim", "Minchang Sung", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE Transactions on Robotics (T-RO)",
-      "releaseDate": "2025-10",
+      "type": "Journal",
+      "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/abstract/document/11197012"
     },
     {
       "name": "Deep Learning-Based Friction Compensation in Low Velocity for Enhanced Direct Teaching in Collaborative Manipulators",
       "authors": ["Seohyun Choi", "Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
-      "releaseDate": "2025-05",
+      "type": "Conference",
+      "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/document/11128191"
     },
     {
       "name": "A Passive Recursive Newton Euler Algorithm and Its Application to Inverse Dynamics under Passivity-based Controller",
       "authors": ["Jonghyeok Kim", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)",
-      "releaseDate": "2025-04",
+      "type": "Conference",
+      "releaseDate": "2025",
       "url": "https://ieeexplore.ieee.org/document/10979029"
     },
     {
       "name": "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk",
       "authors": ["Dongwoo Ko*", "Jonghyeok Kim*", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-      "releaseDate": "2024-10",
+      "type": "Conference",
+      "releaseDate": "2024",
       "url": "https://ieeexplore.ieee.org/document/10802521"
     },
     {
       "name": "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm",
       "authors": ["Jonghyeok Kim", "Donghyeon Lee", "Youngjin Choi", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
-      "releaseDate": "2024-05",
+      "type": "Journal",
+      "releaseDate": "2024",
       "url": "https://ieeexplore.ieee.org/abstract/document/10530920"
     }
   ],
