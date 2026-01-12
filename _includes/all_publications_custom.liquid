@@ -1,0 +1,17 @@
+<h2>All Publications</h2>
+
+<div class="all-publications">
+{% for year_block in site.data.all_publications %}
+  <h3 class="pub-year">{{ year_block.year }}</h3>
+  <ul class="pub-list">
+  {% for pub in year_block.items %}
+    <li>
+      {{ pub.authors }},
+      “{{ pub.title }},”
+      <em>{{ pub.venue }}</em>
+      {% if pub.note %}, {{ pub.note }}{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+{% endfor %}
+</div>
