@@ -3,10 +3,30 @@
     - authors: "J. Kim and W. K. Chung"
       title: "Christoffel-Consistent Coriolis Factorization and Its Effect on the Control of a Robot"
       venue: "IEEE Robotics and Automation Letters (RA-L)"
-      note: "vol. 10, no. 12, pp. 12891–12898, Dec. 2025. (will be presented at IROS 2026, Pittsburgh, USA)"
+      note: "(This work will be presented soon..)"
 
 - year: 2025
   items:
     - authors: "J. Kim, M. Sung, Y. Choi, J. Park, and W. K. Chung"
       title: "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)"
       venue: "IEEE Transactions on Robotics (T-RO)"
+      note: "(This work will be presented at ICRA 2026, Vienna, Austria)"
+
+    - authors: "S. Choi, J. Kim, and W. K. Chung"
+      title: "Deep Learning-Based Friction Compensation in Low Velocity for Enhanced Direct Teaching in Collaborative Manipulators"
+      venue: "IEEE ICRA 2025, Atlanta, USA"
+
+    - authors: "J. Kim, Y. Choi, J. Park, and W. K. Chung"
+      title: "A Passive Recursive Newton Euler Algorithm and Its Application to Inverse Dynamics under Passivity-based Controller"
+      venue: "IEEE SIMPAR 2025, Palermo, Italy"
+
+- year: 2024
+  items:
+    - authors: "D. Ko, J. Kim, and W. K. Chung"
+      title: "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk"
+      venue: "IEEE/RSJ IROS 2024, Abu-Dhabi, UAE"
+
+    - authors: "J. Kim, D. Lee, Y. Choi, and W. K. Chung"
+      title: "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm"
+      venue: "IEEE Robotics and Automation Letters (RA-L)"
+      note: "(This work was presented at IROS 2024, Abu-Dhabi, UAE)"
