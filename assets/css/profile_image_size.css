@@ -1,0 +1,5 @@
+.profile img {
+  max-width: 200px;   /* 원하는 크기 */
+  width: 100%;
+  height: auto;
+}
