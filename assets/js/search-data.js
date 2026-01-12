@@ -43,16 +43,22 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+            },},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+              window.location.href = "/news/long_template/";
+            },},{id: "news-i-have-started-the-master-s-degree-course",
+          title: 'I have started the Master’s degree course.',
+          description: "",
+          section: "News",},{id: "news-i-have-transioned-to-the-integrated-m-s-and-ph-d-course-fighting",
+          title: 'I have transioned to the integrated M.S. and Ph.D. course.  :fighting:',
+          description: "",
+          section: "News",},{id: "news-our-paper-has-been-accepted-to-ra-l-2024-smile",
+          title: 'Our paper has been accepted to RA-L 2024! :smile:',
+          description: "",
+          section: "News",},{id: "news-our-paper-has-been-accepted-to-iros-2024-sparkles",
+          title: 'Our paper has been accepted to IROS 2024! :sparkles:',
           description: "",
           section: "News",},{
         id: 'social-email',
