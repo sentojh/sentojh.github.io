@@ -6,6 +6,6 @@ nav: true
 nav_order: 2
 ---
 
-<hr>
+<h2>All Publications</h2>
 
-{% include all_publications_custom.liquid %}
+<p>Test page</p>
