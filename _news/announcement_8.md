@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted to *T-RO 2025*! :smile:
+Our paper has been accepted to **T-RO 2025**! :smile:
