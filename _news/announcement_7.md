@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have passed my Ph.D Research Proposal! :rocket:
+I have passed my Ph.D Research Proposal. :rocket:

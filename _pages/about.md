@@ -15,7 +15,7 @@ social: false # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 7 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -35,3 +35,5 @@ My research focuses on robot control with geometric perspective, interaction con
 
 I am aiming to complete my Ph.D. this year(2026) and plan to pursue a postdoctoral position starting in 2027.
 If you are interested in my research or have potential postdoctoral opportunities, I would greatly appreciate your consideration!
+
+<br>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted to IROS 2024! :sparkles:
+Our paper has been accepted to *IROS 2024*! :sparkles:

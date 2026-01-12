@@ -46,7 +46,7 @@
       "authors": ["Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
       "type": "Journal",
-      "releaseDate": "2025-12",
+      "releaseDate": "2026-01",
       "url": ""
     },
     {
@@ -122,7 +122,8 @@
       "keywords": [
         "Robot control",
         "Geometric control",
-        "Lie group and Lie algebra"
+        "Lie group and Lie algebra",
+        "Hand manipulation"
       ]
     },
     {

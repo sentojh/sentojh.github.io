@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper has been accepted to RA-L 2024! :smile:
+Our paper has been accepted to *RA-L 2024*! :smile:
