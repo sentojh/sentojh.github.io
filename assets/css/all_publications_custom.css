@@ -1,0 +1,10 @@
+/* All Publications: improve readability */
+.all-publications .pub-list li {
+  line-height: 1.6;        /* 줄 간격 */
+  margin-bottom: 0.6rem;  /* 항목 간 간격 */
+}
+
+.pub-year {
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+}
