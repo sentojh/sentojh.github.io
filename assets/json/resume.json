@@ -46,7 +46,7 @@
       "authors": ["Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
       "type": "Journal",
-      "releaseDate": "2025",
+      "releaseDate": "2025-12",
       "url": ""
     },
     {
@@ -54,7 +54,7 @@
       "authors": ["Jonghyeok Kim", "Minchang Sung", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE Transactions on Robotics (T-RO)",
       "type": "Journal",
-      "releaseDate": "2025",
+      "releaseDate": "2025-10",
       "url": "https://ieeexplore.ieee.org/abstract/document/11197012"
     },
     {
@@ -62,7 +62,7 @@
       "authors": ["Seohyun Choi", "Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Robotics and Automation (ICRA)",
       "type": "Conference",
-      "releaseDate": "2025",
+      "releaseDate": "2025-05",
       "url": "https://ieeexplore.ieee.org/document/11128191"
     },
     {
@@ -70,7 +70,7 @@
       "authors": ["Jonghyeok Kim", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR)",
       "type": "Conference",
-      "releaseDate": "2025",
+      "releaseDate": "2025-04",
       "url": "https://ieeexplore.ieee.org/document/10979029"
     },
     {
@@ -78,7 +78,7 @@
       "authors": ["Dongwoo Ko*", "Jonghyeok Kim*", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
       "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "type": "Conference",
-      "releaseDate": "2024",
+      "releaseDate": "2024-10",
       "url": "https://ieeexplore.ieee.org/document/10802521"
     },
     {
@@ -86,7 +86,7 @@
       "authors": ["Jonghyeok Kim", "Donghyeon Lee", "Youngjin Choi", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
       "type": "Journal",
-      "releaseDate": "2024",
+      "releaseDate": "2024-05",
       "url": "https://ieeexplore.ieee.org/abstract/document/10530920"
     }
   ],
