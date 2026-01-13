@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on [*Lie Group-Based Motion Refinement for Teleoperation*](https://ieeexplore.ieee.org/abstract/document/10530920) has been accepted to **RA-L 2024**! :smile:
+Our paper on [Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm](https://ieeexplore.ieee.org/abstract/document/10530920) has been accepted to **RA-L 2024**! :smile:
