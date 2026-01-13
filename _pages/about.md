@@ -3,8 +3,6 @@ layout: about
 title: Home
 permalink: /
 # subtitle:
-css:
-  - profile_image_size
 
 profile:
   align: right
