@@ -6,6 +6,11 @@ title: Publications
 nav: true
 nav_order: 3
 body_class: publications-page
+
+css:
+  - publications_tab
+  - selected_publications_custom
+  - all_publications_custom
 ---
 
 
