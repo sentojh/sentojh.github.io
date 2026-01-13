@@ -22,6 +22,6 @@
 }
 
 /* Hide page title on Publications page */
-body.publications-page h1.post-title {
+body.publications-page .page-title {
   display: none;
 }
