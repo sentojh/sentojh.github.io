@@ -24,17 +24,36 @@ nav_order: 3
 </div>
 
 <script>
+document.addEventListener("DOMContentLoaded", function () {
+
   function switchTab() {
     const hash = window.location.hash || "#all";
-    document.getElementById("pub-selected").style.display =
-      hash === "#selected" ? "block" : "none";
-    document.getElementById("pub-all").style.display =
-      hash === "#all" ? "block" : "none";
 
-    document.getElementById("tab-selected").classList.toggle("active", hash === "#selected");
-    document.getElementById("tab-all").classList.toggle("active", hash === "#all");
+    const selected = document.getElementById("pub-selected");
+    const all = document.getElementById("pub-all");
+
+    const tabSelected = document.getElementById("tab-selected");
+    const tabAll = document.getElementById("tab-all");
+
+    if (!selected || !all || !tabSelected || !tabAll) {
+      console.error("Publications tab elements not found");
+      return;
+    }
+
+    if (hash === "#selected") {
+      selected.style.display = "block";
+      all.style.display = "none";
+      tabSelected.classList.add("active");
+      tabAll.classList.remove("active");
+    } else {
+      selected.style.display = "none";
+      all.style.display = "block";
+      tabSelected.classList.remove("active");
+      tabAll.classList.add("active");
+    }
   }
 
   window.addEventListener("hashchange", switchTab);
-  window.addEventListener("load", switchTab);
+  switchTab(); // initial load
+});
 </script>
