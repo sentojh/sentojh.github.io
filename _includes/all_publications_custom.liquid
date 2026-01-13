@@ -15,8 +15,6 @@
 
 
 
-<h2>All Publications</h2>
-
 {% for year_block in site.data.all_publications %}
   <h3
     style="
@@ -37,7 +35,7 @@
     >
       {{ pub.authors }},
       “{{ pub.title }},”
-      <em>{{ pub.venue }}</em>
+      {{ pub.venue }}
       {% if pub.note %}, {{ pub.note }}{% endif %}
     </li>
   {% endfor %}
