@@ -14,11 +14,13 @@
 
     - authors: "S. Choi, J. Kim, and W. K. Chung"
       title: "Deep Learning-Based Friction Compensation in Low Velocity for Enhanced Direct Teaching in Collaborative Manipulators"
-      venue: "IEEE International Conference on Robotics and Automation (ICRA) 2025, Atlanta, USA"
+      venue: "IEEE International Conference on Robotics and Automation (ICRA) 2025"
+      note:  "Atlanta, USA"
 
     - authors: "J. Kim, Y. Choi, J. Park, and W. K. Chung"
       title: "A Passive Recursive Newton Euler Algorithm and Its Application to Inverse Dynamics under Passivity-based Controller"
-      venue: "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR) 2025, Palermo, Italy"
+      venue: "IEEE International Conference on Simulation, Modeling, and Programming for Autonomous Robots (SIMPAR) 2025"
+      note: "Palermo, Italy"
 
 - year: 2024
   items:
