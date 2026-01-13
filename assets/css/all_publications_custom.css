@@ -8,3 +8,7 @@
   margin-top: 3.2rem;
   margin-bottom: 1.2rem;
 }
+
+body {
+  background: rgb(255, 220, 220) !important;
+}

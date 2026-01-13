@@ -60,3 +60,7 @@
 .pub-links a {
   font-size: 0.9rem;
 }
+
+body {
+  background: rgb(255, 220, 220) !important;
+}
