@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-09-01
+date: 2025-02-14
 inline: true
 related_posts: false
 ---
 
-Our paper titled [Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)](https://ieeexplore.ieee.org/abstract/document/11197012) has been accepted to **T-RO 2025**! :smile:
+I participated as a speaker in the **Lie Group Robotics Tutorial** at the *20th Korea Robotics Society Annual Conference (KRoC)*. :fire:
