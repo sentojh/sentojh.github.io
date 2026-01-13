@@ -7,8 +7,5 @@ nav: true
 nav_order: 3
 ---
 
-{% include selected_publications.liquid %}
-
-<hr>
 
 {% include all_publications_custom.liquid %}
