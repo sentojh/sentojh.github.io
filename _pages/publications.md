@@ -5,6 +5,7 @@ title: Publications
 
 nav: true
 nav_order: 3
+body_class: publications-page
 ---
 
 
