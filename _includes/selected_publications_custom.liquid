@@ -1,21 +1,21 @@
 {%- comment -%}
 ====================================================
-SELECTED PUBLICATIONS — ALL-IN-LIQUID VERSION
+SELECTED PUBLICATIONS — SINGLE IMAGE VERSION
 모든 레이아웃 / 간격 / 크기 여기서 제어
 ====================================================
 {%- endcomment -%}
 
-{%- assign IMG_WIDTH = "640px" -%}
+{%- assign IMG_WIDTH = "360px" -%}
 {%- assign IMG_RATIO = "4 / 3" -%}
-{%- assign GAP = "0.8rem" -%}
+{%- assign GAP = "2.5rem" -%}
 {%- assign ITEM_MARGIN = "3.8rem" -%}
 
 
 {% for block in site.data.selected_publications %}
 
 <h3 style="
-  margin-top:3.4rem;
-  margin-bottom:1.6rem;
+  margin-top:3.2rem;
+  margin-bottom:1.4rem;
   font-size:1.9rem;
   font-weight:500;
 ">
@@ -26,36 +26,28 @@ SELECTED PUBLICATIONS — ALL-IN-LIQUID VERSION
 <div style="
   display:grid;
   grid-template-columns: {{ IMG_WIDTH }} 1fr;
-  gap: {{ GAP }};
+  column-gap: {{ GAP }};
   margin-bottom: {{ ITEM_MARGIN }};
   align-items:start;
 ">
 
-  <!-- LEFT: image grid -->
+  <!-- LEFT: single image -->
   <div style="
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap:0.8rem;
+    width:100%;
+    aspect-ratio: {{ IMG_RATIO }};
+    overflow:hidden;
+    border-radius:10px;
+    background:#f2f2f2;
   ">
-    {% for img in pub.images %}
-    <div style="
-      width:100%;
-      aspect-ratio: {{ IMG_RATIO }};
-      overflow:hidden;
-      border-radius:8px;
-      background:#f2f2f2;
-    ">
-      <img
-        src="{{ '/assets/img/publications/' | append: img | relative_url }}"
-        style="
-          width:100%;
-          height:100%;
-          object-fit:cover;
-          display:block;
-        "
-      >
-    </div>
-    {% endfor %}
+    <img
+      src="{{ '/assets/img/publications/' | append: pub.images[0] | relative_url }}"
+      style="
+        width:100%;
+        height:100%;
+        object-fit:cover;
+        display:block;
+      "
+    >
   </div>
 
   <!-- RIGHT: info -->
@@ -78,8 +70,8 @@ SELECTED PUBLICATIONS — ALL-IN-LIQUID VERSION
 
     <div style="
       font-size:1.15rem;
-      color:#333;
-      margin-bottom:0.6rem;
+      color:#222;   /* italic 제거 + 색 조금 진하게 */
+      margin-bottom:0.7rem;
     ">
       {{ pub.venue }}
     </div>
