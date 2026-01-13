@@ -7,3 +7,33 @@
         - "12.jpg"
       links:
         ieee: "https://ieeexplore.ieee.org/"
+
+
+- year: 2025
+  items:
+    - title: "Impedance Control Design Framework Using Commutative Map Between SE(3) and se(3)"
+      authors: "Jonghyeok Kim, Minchang Sung, Youngjin Choi, Jonghoon Park, and Wan Kyun Chung"
+      venue: "IEEE Transactions on Robotics (T-RO)"
+      images:
+        - "12.jpg"
+      links:
+        ieee: "https://ieeexplore.ieee.org/abstract/document/11197012"
+
+
+- year: 2024
+  items:
+    - title: "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk"
+      authors: "Dongwoo Ko, Jonghyeok Kim, and Wan Kyun Chung"
+      venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+      images:
+        - "12.jpg"
+      links:
+        ieee: "https://ieeexplore.ieee.org/document/10802521"
+
+    - title: "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm"
+      authors: "Jonghyeok Kim, Donghyeon Lee, Youngjin Choi, and Wan Kyun Chung"
+      venue: "IEEE Robotics and Automation Letters (RA-L)"
+      images:
+        - "12.jpg"
+      links:
+        ieee: "https://ieeexplore.ieee.org/abstract/document/11197012"

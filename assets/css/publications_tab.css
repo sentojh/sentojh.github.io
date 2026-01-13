@@ -3,25 +3,22 @@
   gap: 2rem;
   margin-top: 0.8rem;
   margin-bottom: 2.0rem;
-  font-size: 1.5rem;
   letter-spacing: 0.04em; 
 }
 
 .pub-tab {
-  font-size: 1.35rem;
+  font-size: 2.5rem;
   text-decoration: none;
   color: #777;
-  padding-bottom: 0.2rem;
-  letter-spacing: 0.05em; 
-  border-bottom: 2px solid transparent;
+  padding-bottom: 0.3rem;
+  letter-spacing: 0.5em; 
+  border-bottom: 3px solid transparent;
 }
 
 .pub-tab.active {
   color: #000;
-  font-size: 1.4rem;
   border-bottom: 2px solid #a000a0; /* al-folio accent */
-  font-weight: 700;
-  letter-spacing: 0.04em; 
+  font-weight: 800;
 }
 
 /* Hide page title on Publications page */
