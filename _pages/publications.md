@@ -16,12 +16,12 @@ body_class: publications-page
 ====================================
 {% endcomment %}
 
-{% assign TAB_FONT_SIZE = "2.5rem" %}
+{% assign TAB_FONT_SIZE = "1.5rem" %}
 {% assign TAB_GAP = "2rem" %}
-{% assign TAB_LETTER_SPACING = "0.5em" %}
-{% assign TAB_BOTTOM_PADDING = "0.3rem" %}
-{% assign TAB_MARGIN_TOP = "0.8rem" %}
-{% assign TAB_MARGIN_BOTTOM = "2.0rem" %}
+{% assign TAB_LETTER_SPACING = "0.2em" %}
+{% assign TAB_BOTTOM_PADDING = "0.2rem" %}
+{% assign TAB_MARGIN_TOP = "0.6rem" %}
+{% assign TAB_MARGIN_BOTTOM = "1.0rem" %}
 
 {% assign TAB_INACTIVE_COLOR = "#777" %}
 {% assign TAB_ACTIVE_COLOR = "#000" %}
