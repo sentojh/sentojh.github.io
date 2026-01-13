@@ -1,0 +1,30 @@
+<h2>Selected Publications</h2>
+
+{% for block in site.data.selected_publications %}
+<h3 class="selected-year">{{ block.year }}</h3>
+
+{% for pub in block.items %}
+<div class="selected-pub">
+
+  <!-- LEFT: Images -->
+  <div class="pub-images">
+    {% for img in pub.images %}
+      <img src="{{ '/assets/img/publications/' | append: img | relative_url }}">
+    {% endfor %}
+  </div>
+
+  <!-- RIGHT: Text -->
+  <div class="pub-info">
+    <h4 class="pub-title">{{ pub.title }}</h4>
+    <p class="pub-authors">{{ pub.authors }}</p>
+    <p class="pub-venue">{{ pub.venue }}</p>
+
+    <div class="pub-links">
+      {% if pub.links.ieee %}<a href="{{ pub.links.ieee }}">[IEEE]</a>{% endif %}
+      {% if pub.links.publisher %}<a href="{{ pub.links.publisher }}">[Publisher]</a>{% endif %}
+    </div>
+  </div>
+
+</div>
+{% endfor %}
+{% endfor %}

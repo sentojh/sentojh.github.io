@@ -1,0 +1,49 @@
+/* ===== Selected Publications ===== */
+
+.selected-year {
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 2.5rem 0 1.5rem;
+}
+
+.selected-pub {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: flex-start;
+}
+
+.pub-images {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.pub-images img {
+  width: 220px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.pub-info {
+  max-width: 600px;
+}
+
+.pub-title {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.pub-authors {
+  margin-bottom: 0.2rem;
+}
+
+.pub-venue {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.pub-links a {
+  margin-right: 0.8rem;
+  font-size: 0.9rem;
+}
