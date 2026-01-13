@@ -6,7 +6,7 @@
       images:
         - "Christoffel_ral26.gif"
       links:
-        ieee: "https://ieeexplore.ieee.org/"
+        ieee: "https://ieeexplore.ieee.org/document/11347485"
 
 
 - year: 2025
@@ -15,7 +15,7 @@
       authors: "Jonghyeok Kim, Minchang Sung, Youngjin Choi, Jonghoon Park, and Wan Kyun Chung"
       venue: "IEEE Transactions on Robotics (T-RO)"
       images:
-        - "Impedance_illustration_tro25.png"
+        - "Impedance_tro25.png"
       links:
         ieee: "https://ieeexplore.ieee.org/abstract/document/11197012"
 
