@@ -26,7 +26,8 @@
   items:
     - authors: "D. Ko, J. Kim, and W. K. Chung"
       title: "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk"
-      venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024, Abu-Dhabi, UAE"
+      venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2024"
+      note:  "Abu-Dhabi, UAE"
 
     - authors: "J. Kim, D. Lee, Y. Choi, and W. K. Chung"
       title: "Lie Group-Based User Motion Refinement Control for Teleoperation of a Constrained Robot Arm"
