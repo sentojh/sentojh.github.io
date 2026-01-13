@@ -1,11 +1,40 @@
+{% comment %}
+====================================
+ All Publications – Layout Parameters
+ (조절은 여기만!)
+====================================
+{% endcomment %}
+
+{% assign YEAR_TOP_MARGIN = "3.2rem" %}
+{% assign YEAR_BOTTOM_MARGIN = "1.2rem" %}
+
+{% assign ITEM_LINE_HEIGHT = "2.0" %}
+{% assign ITEM_BOTTOM_MARGIN = "1.2rem" %}
+
+{% assign LIST_LEFT_PADDING = "1.2rem" %}
+
+
+
 <h2>All Publications</h2>
 
-<div class="all-publications">
 {% for year_block in site.data.all_publications %}
-  <h3 class="pub-year">{{ year_block.year }}</h3>
-  <ul class="pub-list">
+  <h3
+    style="
+      margin-top: {{ YEAR_TOP_MARGIN }};
+      margin-bottom: {{ YEAR_BOTTOM_MARGIN }};
+    "
+  >
+    {{ year_block.year }}
+  </h3>
+
+  <ul style="padding-left: {{ LIST_LEFT_PADDING }};">
   {% for pub in year_block.items %}
-    <li>
+    <li
+      style="
+        line-height: {{ ITEM_LINE_HEIGHT }};
+        margin-bottom: {{ ITEM_BOTTOM_MARGIN }};
+      "
+    >
       {{ pub.authors }},
       “{{ pub.title }},”
       <em>{{ pub.venue }}</em>
@@ -14,4 +43,3 @@
   {% endfor %}
   </ul>
 {% endfor %}
-</div>
