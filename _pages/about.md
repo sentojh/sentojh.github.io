@@ -33,7 +33,8 @@ My research focuses on robot control with geometric perspective, interaction con
 - LinkdIn: [Link](https://www.linkedin.com/in/jonghyeok-kim-220053321/)
 
 
-I am aiming to complete my Ph.D. this year(2026) and plan to pursue a postdoctoral position starting in 2027.
+I am aiming to complete my Ph.D. this year(2026) and plan to pursue a postdoctoral position starting in 2028. (졸업 이후, 2027년 한 해는 전문연구요원 제도로 복무할 예정이라 그 기간에는 해당 의무를 수행하고, 2028년부터 포닥 연구원으로의 연구 활동을 계획하고 있습니다.)
+
 If you are interested in my research or have potential postdoctoral opportunities, I would greatly appreciate your consideration!
 
 <br>
