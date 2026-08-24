@@ -80,6 +80,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-titled-christoffel-consistent-coriolis-factorization-and-its-effect-on-the-control-of-a-robot-has-been-accepted-to-ra-l-2026-smile",
           title: 'Our paper titled Christoffel-Consistent Coriolis Factorization and Its Effect on the Control of...',
           description: "",
+          section: "News",},{id: "news-our-paper-titled-learning-spatially-ambiguous-trajectories-from-demonstrations-via-phase-modulated-dynamical-systems-has-been-accepted-to-ra-l-2026-smile",
+          title: 'Our paper titled Learning Spatially Ambiguous Trajectories from Demonstrations via Phase-Modulated Dynamical Systems...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
