@@ -41,7 +41,15 @@
     }
   ],
   "publications": [
-        {
+    {
+      "name": "Learning Spatially Ambiguous Trajectories from Demonstrations via Phase-Modulated Dynamical Systems",
+      "authors": ["Hyunseo Jung", "Jonghyeok Kim", "Keehoon Kim"],
+      "publisher": "IEEE Robotics and Automation Letters (RA-L)",
+      "type": "Journal",
+      "releaseDate": "2026-08",
+      "url": ""
+    },
+    {
       "name": "Christoffel-Consistent Coriolis Factorization and Its Effect on the Control of a Robot",
       "authors": ["Jonghyeok Kim", "Wan Kyun Chung"],
       "publisher": "IEEE Robotics and Automation Letters (RA-L)",
