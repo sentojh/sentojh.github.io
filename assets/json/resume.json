@@ -83,7 +83,7 @@
     },
     {
       "name": "Ensuring Joint Constraints of Torque-Controlled Robot Manipulators under Bounded Jerk",
-      "authors": ["Dongwoo Ko*", "Jonghyeok Kim*", "Youngjin Choi", "Jonghoon Park", "Wan Kyun Chung"],
+      "authors": ["Dongwoo Ko*", "Jonghyeok Kim*", "Wan Kyun Chung"],
       "publisher": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
       "type": "Conference",
       "releaseDate": "2024-10",
