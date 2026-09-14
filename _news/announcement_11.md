@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper titled [Learning Spatially Ambiguous Trajectories from Demonstrations via Phase-Modulated Dynamical Systems]("") has been accepted to **RA-L 2026**! :smile:
+Our paper titled [Learning Spatially Ambiguous Trajectories from Demonstrations via Phase-Modulated Dynamical Systems](https://ieeexplore.ieee.org/document/11685323) has been accepted to **RA-L 2026**! :smile:
