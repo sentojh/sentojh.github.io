@@ -69,7 +69,7 @@ ninja.data = [{
           title: 'Our paper titiled A Passive Recursive Newton Euler Algorithm and Its Application to...',
           description: "",
           section: "News",},{id: "news-i-have-passed-my-ph-d-research-proposal-rocket",
-          title: 'I have passed my Ph.D Research Proposal. :rocket:',
+          title: 'I have passed my Ph.D. Research Proposal. :rocket:',
           description: "",
           section: "News",},{id: "news-i-participated-as-a-speaker-in-the-lie-group-robotics-tutorial-at-the-20th-korea-robotics-society-annual-conference-kroc-fire",
           title: 'I participated as a speaker in the Lie Group Robotics Tutorial at the...',
@@ -82,6 +82,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-our-paper-titled-learning-spatially-ambiguous-trajectories-from-demonstrations-via-phase-modulated-dynamical-systems-has-been-accepted-to-ra-l-2026-smile",
           title: 'Our paper titled Learning Spatially Ambiguous Trajectories from Demonstrations via Phase-Modulated Dynamical Systems...',
+          description: "",
+          section: "News",},{id: "news-i-have-passed-my-ph-d-thesis-defense-it-is-a-great-honor-to-have-reached-this-milestone-with-the-support-of-my-advisor-committee-members-colleagues-friends-and-family-smile-fire-rocket",
+          title: 'I have passed my Ph.D. Thesis Defense! It is a great honor to...',
           description: "",
           section: "News",},{
         id: 'social-email',
